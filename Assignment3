@@ -1,0 +1,11 @@
+list1=[1,2,3,4]
+dict1={1: "A", 2: "B", 3: "C"}
+tup1=("D","E","F")
+
+print("Accessing 3rd element in list ",list1)
+print(list1[2])
+print("Accessing 2nd element in Tuple ",tup1)
+print(tup1[1])
+print("Deleting 3rd entery from dictionary ",dict1)
+del(dict1[3])
+print(dict1)
